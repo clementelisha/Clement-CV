@@ -6,61 +6,70 @@
     <title>CV - Clement K. Elisha</title>
     <style>
         body {
-            font-family: 'Segoe UI', Calibri, Arial, sans-serif;
-            line-height: 1.45;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.35;
             color: #333;
             margin: 0;
-            padding: 30px;
+            padding: 25px;
             background-color: #fff;
         }
         .container {
-            max-width: 850px;
+            max-width: 800px;
             margin: auto;
         }
         header {
             text-align: center;
             border-bottom: 2px solid #2c3e50;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
         }
         h1 {
             margin: 0;
-            font-size: 26px;
+            font-size: 24px;
             text-transform: uppercase;
-            letter-spacing: 1px;
         }
         .contact-info {
-            font-size: 0.9em;
-            margin-top: 5px;
+            font-size: 0.85em;
+            margin-top: 4px;
         }
         h2 {
-            font-size: 1.15em;
+            font-size: 1.1em;
             text-transform: uppercase;
             border-bottom: 1px solid #2c3e50;
-            padding-bottom: 3px;
-            margin-top: 20px;
+            padding-bottom: 2px;
+            margin-top: 15px;
+            margin-bottom: 8px;
             color: #2c3e50;
         }
         .job, .edu-item {
-            margin-bottom: 12px;
+            margin-bottom: 10px;
         }
         .job-header, .edu-header {
             display: flex;
             justify-content: space-between;
             font-weight: bold;
-            font-size: 1.05em;
+            font-size: 1em;
         }
         ul {
-            margin: 5px 0;
-            padding-left: 20px;
+            margin: 4px 0;
+            padding-left: 18px;
         }
         li {
-            margin-bottom: 3px;
+            margin-bottom: 2px;
+            font-size: 0.95em;
+        }
+        .skills-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px 20px;
         }
         .skills-category {
             font-weight: bold;
-            min-width: 150px;
-            display: inline-block;
+            font-size: 0.95em;
+        }
+        p {
+            margin: 5px 0;
+            font-size: 0.95em;
         }
         @media print {
             body { padding: 0; }
@@ -74,15 +83,14 @@
     <header>
         <h1>CLEMENT K. ELISHA</h1>
         <div class="contact-info">
-            Phone: +233 533 726 638 | Email: elishacodez@gmail.com<br>
-            LinkedIn: linkedin.com/in/clement-k-elisha-a-a79a20392 | Portfolio: elisha-devtek.vercel.app<br>
-            Location: Spintex, Accra / Kumasi
+            +233 533 726 638 | elishacodez@gmail.com | Spintex, Accra / Kumasi<br>
+            LinkedIn: linkedin.com/in/clement-k-elisha-a-a79a20392 | Portfolio: elisha-devtek.vercel.app
         </div>
     </header>
 
     <section>
         <h2>Profile</h2>
-        <p>I am a tech-forward professional currently pursuing Accountancy with Informatics at KsTU. I specialize in bridging the gap between finance and technology—using tools like n8n, Salesforce, and AI orchestration to make business systems run faster and smarter. From building full-stack applications to designing high-conversion admission funnels, I focus on creating digital solutions that actually move the needle for growth and efficiency.</p>
+        <p>I am a tech-forward professional pursuing Accountancy with Informatics at KsTU. I specialize in bridging the gap between finance and technology using n8n, Salesforce, and AI orchestration. From building full-stack applications to designing high-conversion systems, I focus on creating digital solutions that drive growth and teaching others how to master these tools.</p>
     </section>
 
     <section>
@@ -94,32 +102,32 @@
                 <span>2024 – Present</span>
             </div>
             <ul>
-                <li><strong>Online Coaching:</strong> Currently mentoring and coaching students online, helping them navigate technical skills, automation workflows, AI toolsets, and robotics/hardware setup.</li>
-                <li><strong>Web & Automation Services:</strong> Build custom websites and specialized landing pages. A key project involved the full web platform and donation system for the <strong>HealTheVulnerable Foundation</strong>.</li>
-                <li><strong>Automation Architect:</strong> Design custom AI agents and n8n workflows that handle CRM syncing, data entry automation, and routine operational tasks.</li>
+                <li><strong>Online Coaching:</strong> Mentoring students in technical skill acquisition, focusing on AI automation workflows (n8n), robotics hardware setup, and specialized software logic.</li>
+                <li><strong>Web & Automation:</strong> Developed custom platforms including the full web presence and donation system for the <strong>HealTheVulnerable Foundation</strong>.</li>
+                <li><strong>Automation Architecture:</strong> Designed custom AI agents to automate CRM synchronization and routine administrative tasks.</li>
             </ul>
         </div>
 
         <div class="job">
             <div class="job-header">
-                <span>Geremaine Fashion & Creative Designs – Sales & Digital Marketing</span>
+                <span>Geremaine Fashion & Creative Designs – Sales & Marketing</span>
                 <span>2024 – 2025</span>
             </div>
             <ul>
-                <li>Executed a growth strategy that increased social media following from 134 to over 1,100 followers.</li>
-                <li>Optimized sales operations by implementing automated client engagement and lead tracking systems.</li>
+                <li>Scaled social media following from 134 to 1,100+ via data-driven engagement strategies.</li>
+                <li>Automated client lead tracking and engagement systems to optimize sales workflow.</li>
             </ul>
         </div>
 
         <div class="job">
             <div class="job-header">
-                <span>Adom Theological Seminary – Technical Operations & Digital Marketing</span>
-                <span>March 2023 – Oct 2023</span>
+                <span>Adom Theological Seminary – Tech Operations & Marketing</span>
+                <span>Mar 2023 – Oct 2023</span>
             </div>
             <ul>
-                <li>Engineered a custom Admission Funnel on adomseminary.com that resulted in a significant surge in student enrollment.</li>
-                <li>Managed technical outreach systems, automated lead capture, and streamlined digital administrative processes.</li>
-                <li>Oversaw digital marketing campaigns while maintaining the underlying technical infrastructure of the seminary's online presence.</li>
+                <li>Engineered a custom Admission Funnel on adomseminary.com, leading to a surge in enrollment.</li>
+                <li>Managed the seminary’s digital infrastructure, automating lead capture and admin processes.</li>
+                <li>Balanced technical system maintenance with strategic digital outreach.</li>
             </ul>
         </div>
 
@@ -129,29 +137,30 @@
                 <span>Jan 2023 – Nov 2023</span>
             </div>
             <ul>
-                <li>Delivered technical IT training, teaching digital foundations and computing skills to students.</li>
-                <li>Integrated French language instruction to provide a balanced technical and linguistic curriculum.</li>
+                <li>Delivered IT training covering digital foundations and computing logic to students.</li>
+                <li>Taught French language alongside technical subjects for a balanced curriculum.</li>
             </ul>
         </div>
     </section>
 
     <section>
         <h2>Core Skills</h2>
-        <ul>
-            <li><span class="skills-category">Hardware & Robotics:</span> Arduino Foundations, Electronics Foundations, Circuit Logic.</li>
-            <li><span class="skills-category">AI & Automation:</span> n8n Workflow Automation, AI Agents (GPT-5/OpenAI), Prompt Engineering, Chatbot Architecture.</li>
-            <li><span class="skills-category">Software Dev:</span> Python (Django), JavaScript (React), REST API Integration, PostgreSQL, WordPress.</li>
-            <li><span class="skills-category">Fintech & Business:</span> Salesforce (CPQ), Financial Workflow Automation, Excel (Advanced), Power BI, Notion.</li>
-            <li><span class="skills-category">Infrastructure:</span> DevSecOps Foundations, Git/GitHub, Heroku, Vercel.</li>
-        </ul>
+        <div class="skills-container">
+            <div><span class="skills-category">Robotics:</span> Arduino, Electronics Foundations, Circuit Logic</div>
+            <div><span class="skills-category">AI/Automation:</span> n8n, AI Agents, Prompt Engineering</div>
+            <div><span class="skills-category">Software:</span> Python (Django), React, PostgreSQL</div>
+            <div><span class="skills-category">Infrastructure:</span> Git/GitHub, Heroku, Vercel, DevSecOps</div>
+            <div><span class="skills-category">Fintech:</span> Salesforce (CPQ), Advanced Excel, Power BI</div>
+            <div><span class="skills-category">Other:</span> WordPress, REST APIs, Notion</div>
+        </div>
     </section>
 
     <section>
         <h2>LinkedIn Learning Certifications</h2>
         <ul>
             <li><strong>Technical & Robotics:</strong> Learning Arduino | Electronics Foundations: Fundamentals | Learning Arduino: Foundations | DevOps Foundations: DevSecOps.</li>
-            <li><strong>AI & Orchestration:</strong> Building AI Products: Architecture and Orchestration | Build AI Agents and Automate Workflows with n8n | Build with AI: Creating AI Agents with GPT-5 | Build No-Code AI Agents for Finance | Advanced Prompt Engineering.</li>
-            <li><strong>Salesforce & Business:</strong> Learning Salesforce CPQ | Salesforce: Sales Automation for Salespeople | Notion: Build a Project Management Dashboard.</li>
+            <li><strong>AI & Orchestration:</strong> Building AI Products | Build AI Agents/Workflows (n8n) | Build with AI: GPT-5 | No-Code AI for Finance | Advanced Prompt Engineering.</li>
+            <li><strong>Business:</strong> Salesforce CPQ | Salesforce Sales Automation | Notion Project Management.</li>
         </ul>
     </section>
 
@@ -162,36 +171,37 @@
                 <span>Kumasi Technical University (KsTU)</span>
                 <span>2023 – Present</span>
             </div>
-            <div>BTech Accountancy with Informatics (Distance)</div>
+            <p>BTech Accountancy with Informatics (Distance)</p>
         </div>
         <div class="edu-item">
             <div class="edu-header">
                 <span>Sylvia Modern Academy</span>
-                <span>Completed 2022</span>
+                <span>2022</span>
             </div>
-            <div>Senior High School Diploma</div>
+            <p>Senior High School Diploma</p>
         </div>
     </section>
 
     <section>
         <h2>Key Projects</h2>
         <ul>
-            <li><strong>Invoice Management System:</strong> Built with Django and PostgreSQL to track contracts and payments, applying accounting principles to code.</li>
-            <li><strong>AI Customer Service Chatbot:</strong> Developed a Python-based AI assistant for real-time web support and lead generation.</li>
-            <li><strong>NGO System:</strong> Built and maintained healthevulnerable.com to support mission-driven global visibility.</li>
+            <li><strong>Invoice System:</strong> Django/PostgreSQL app applying accounting logic to automated payments.</li>
+            <li><strong>AI Chatbot:</strong> Python-based assistant for real-time support and automated lead generation.</li>
+            <li><strong>NGO System:</strong> Web architecture for healthevulnerable.com to support global visibility.</li>
         </ul>
     </section>
 
-    <section>
-        <h2>Languages</h2>
-        <p>English (Fluent), French (Professional), Spanish (Basic), Twi, Ewe</p>
-    </section>
-
-    <section>
-        <h2>References</h2>
-        <strong>Mr. Dominic Tachie</strong>, Director, Modern Innovation School | +233 244 759 103<br>
-        <strong>Rev. Evans Benny</strong>, Head Supervisor, Sylvia Modern Academy | evansbenny21@gmail.com | +228 935 834 70
-    </section>
+    <div style="display: flex; justify-content: space-between;">
+        <section style="width: 45%;">
+            <h2>Languages</h2>
+            <p>English, French, Spanish (Basic), Twi, Ewe</p>
+        </section>
+        <section style="width: 50%;">
+            <h2>References</h2>
+            <p style="font-size: 0.85em;"><strong>Mr. D. Tachie</strong> (Modern Innovation): +233 244 759 103<br>
+            <strong>Rev. E. Benny</strong> (Sylvia Academy): +228 935 834 70</p>
+        </section>
+    </div>
 </div>
 
 </body>
